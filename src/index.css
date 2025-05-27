@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f8f7f7e6;
+  padding-top: 20px; 
+}
+
+main, div, header, section {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+}
+
+.header {
+  background-color: rgb(249, 32, 8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 16px;
+  position: fixed; 
+  top: 8px;
+  left: 0; 
+  right: 0; 
+  z-index: 1000;
+  color: white;
+  margin-top: 0; 
+}
+
+.header img {
+  width: 15px;
+  height: 15px;
+}
+
+.title {
+  color: white;
+  font-size: 10px;
+}
+
+/* mount fju pt */
+.entry {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.entry-img {
+  margin-top: 30px;
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.entry-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.location {
+  font-size: 10.24px;
+  color: #2B283A;
+  margin-bottom: 8px;
+  letter-spacing: 0.17em;
+}
+
+.pin {
+  color: #F55A5A;
+  margin-right: 4px;
+}
+
+.map-link {
+  color: #918E9B;
+  margin-left: 8px;
+  font-size: 10.24px;
+  text-decoration: underline;
+}
+
+.map-link:hover {
+  color: #F55A5A;
+}
+
+.entry-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2B283A;
+  margin: 0 0 12px 0;
+  line-height: 1.2;
+}
+
+.date {
+  font-size: 10.24px;
+  font-weight: 700;
+  color: #2B283A;
+  margin-bottom: 8px;
+  letter-spacing: 0.17em;
+}
+
+.desc {
+  font-size: 10.24px;
+  line-height: 1.5;
+  color: #2B283A;
+  margin: 0;
+}
+
+.entries-container {
+  max-width: 550px;
+  margin: 0 auto;
+  background: white;
+  padding: 0;
+  min-height: calc(100vh - 64px);
+}
